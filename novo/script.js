@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     embaralhar(imagens);
-    console.log(imagens); // Depuração: Verifique os pares de cartas
+    console.log(imagens); 
 
     imagens.forEach((imagem) => {
         const carta = document.createElement('div');
